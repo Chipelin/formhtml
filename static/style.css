@@ -1,0 +1,28 @@
+label {
+    margin-top: 20px;
+}
+.form {
+    border-top: solid gray ;
+    border-bottom: solid gray ;
+    width: 50%;
+    
+    
+}
+
+.form input {
+    margin-bottom: 20px;
+   
+}
+
+
+.form textarea {
+    margin-bottom: 20px;
+}
+
+.top{
+    display:inline-block;
+    margin-top:20px;
+}
+
+
+

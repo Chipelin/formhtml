@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="static/style.css">
+        <title>Форма</title>
+    </head>
+    <body>
+        <h1>Запись на курсы программирования</h1>
+        <form class="form">
+            <label class="top" for="name">Имя:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <input type="radio" id="java" name="language" value="Java">
+            <label for="java">Java</label>
+            <input type="radio" id="c++" name="language" value="C++">
+            <label for="c++">C++</label>
+            <input type="radio" id="python" name="language" value="Python">
+            <label for="python">Python</label>
+            <input type="radio" id="php" name="language" value="PHP">
+            <label for="php">PHP</label>
+            <input type="radio" id="javascript" name="language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+            <label for="info">Дополнительная информация:</label><br>
+            <textarea  id="info" name="info" rows="4" cols="50" >
+            </textarea><br> 
+            <label for="pwd">Секретное слово:</label><br>
+            <input type="password" id="pwd" name="pwd"><br> 
+            <input type="checkbox" id="agree" name="agree" value="Agree">
+            <label for="agree">С правилами ознакомился и согласен</label><br>
+            <input type="button" id="submit" name="submit" value="Отправить">
+            <label for="submit"></label>
+            <input type="button" id="submit" name="submit" value="Очистить">
+            <label for="submit"></label>
+
+        </form>
+    </body>
+</html>
